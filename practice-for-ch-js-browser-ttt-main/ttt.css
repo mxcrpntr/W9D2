@@ -1,18 +1,43 @@
+h1 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
 ul {
     list-style: none;
     display: flex;
-    width: 600px;
+    width: 420px;
     flex-wrap: wrap;
-
+    text-align: center;
+    margin: auto;
+    padding-inline-start: 0;
 
 }
 
 ul>li {
-    width: 198px;
-    height: 198px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 124px;
+    height: 124px;
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
     background-color: lightgray;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    vertical-align: middle;
+    margin: 0;
 }
 
 ul>li:hover {
@@ -20,17 +45,69 @@ ul>li:hover {
 }
 
 ul>li[data-row="0"] {
-    width: 198px;
-    height: 198px;
-    border-top: 1px solid black;
+    border-top: 8px solid black;
 }
 
 ul>li[data-col="0"] {
-    width: 198px;
-    height: 198px;
-    border-left: 1px solid black;
+    border-left: 8px solid black;
 }
 
 .clicked {
     background-color: white;
+}
+.clicked:hover {
+    background-color: white;
+}
+
+.winner, .winner:hover {
+    background-color: green;
+    color: white;
+}
+
+.loser, .loser:hover {
+    background-color: white;
+    color: red;
+}
+
+.red_t,.red_t:hover {
+    color: red;
+}
+.orange_t,.orange_t:hover {
+    color: orange;
+}
+.yellow_t,.yellow_t:hover {
+    color: yellow;
+}
+.green_t,.green_t:hover {
+    color: green;
+}
+.blue_t,.blue_t:hover {
+    color: blue;
+}
+.indigo_t,.indigo_t:hover {
+    color: indigo;
+}
+.violet_t,.violet_t:hover {
+    color: violet;
+}
+.red_b,.red_b:hover {
+    background-color: red;
+}
+.orange_b,.orange_b:hover {
+    background-color: orange;
+}
+.yellow_b,.yellow_b:hover {
+    background-color: yellow;
+}
+.green_b,.green_b:hover {
+    background-color: green;
+}
+.blue_b,.blue_b:hover {
+    background-color: blue;
+}
+.indigo_b,.indigo_b:hover {
+    background-color: indigo;
+}
+.violet_b,.violet_b:hover {
+    background-color: violet;
 }
