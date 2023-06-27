@@ -5,5 +5,4 @@ document.addEventListener("DOMContentLoaded", () => {
   const el = document.querySelector('.ttt');
   const game = new Game();
   const view = new View(game,el);
-  view.setupBoard();
 });
